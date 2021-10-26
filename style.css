@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rampart+One&display=swap');
+body {
+    
+    background-color: #39a33ea9;
+}
+p{
+    font-size: 25px;
+}
+
+h1 {
+    font-family:'Rampart One', cursive;
+    font-size: 60px;
+    color: #060738;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000000;
+    
+}
+
+h2 {
+    margin: 30px auto; 
+}
+
+section {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.mytable {
+    margin: 40px auto;
+  height: 120px;
+  width: 800px;
+  font-size: 40px;
+  line-height: 80px;
+
+  
+}
+
+table tr td {
+    background-color: #054221;
+}
+
+
+/*.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    
+} */
+
+.cell {
+    font-family: 'Rampart One';
+    width: 120px;
+    height: 120px;
+    box-shadow: 8px 8px 8px 8px #329b37;
+    border: 4px solid #329b37;
+    cursor: pointer;
+    line-height: 120px;
+    font-size: 50px;
+}
+
+.btn {
+    width: 150px;
+    font-size: 25px;
+}
+
+
+.btncolor {
+    background-color: #0a3f11 ;
+    border-color: #0a3f11;
+}
+
+.btncolor:hover {
+    background-color: #0a3f11;
+    border-color: #0a3f11;
+}
+
+.turnClass {
+    color: rgb(7, 4, 179);
+    margin: 30px auto; 
+}
+
